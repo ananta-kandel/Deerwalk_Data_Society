@@ -25,7 +25,7 @@ const Hero = () => {
       
   return (
     <>
-    <nav className='h-[2rem] bg-[#00A09C] p-[2rem] flex justify-center sticky top-0  z-10 items-center shadow'>
+    <nav className={`h-[2rem] bg-[#00A09C] p-[2rem] flex justify-center sticky top-0  z-10 items-center shadow ${show ? 'hidden' : ''}`}>
         <ul className='text-white flex font-lato md:text-[1.5rem] text-[1rem]'> 
             <li className='md:p-[2rem] p-[10px]'>Home</li>
             <li className='md:p-[2rem] p-[10px]'>About us</li>
