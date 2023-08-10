@@ -11,7 +11,8 @@ module.exports = {
       fontFamily: {
         'lora' : ['Lora, serif'],
         'inter' :['Inter, sans-serif'],
-        'lato' :['Lato, sans-serif']
+        'lato' :['Lato, sans-serif'],
+        'heading' : ['Bricolage Grotesque, sans-serif']
       }
       ,
     },

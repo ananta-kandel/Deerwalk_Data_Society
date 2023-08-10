@@ -1,10 +1,12 @@
 /* for background */
   @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@1,600&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&display=swap');
   /* font-family: 'Inter', sans-serif;
   font-family: 'Lora', serif; */
 body{
-  background-color:#137598;
+  /* background-color:#137598; */
+  background-image: linear-gradient(to bottom right, #137598, #3a2d2d);
 }
 .demo-wrap{
   content: ' ';

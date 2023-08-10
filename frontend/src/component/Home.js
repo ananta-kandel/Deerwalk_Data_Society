@@ -19,8 +19,8 @@ const Home = () => {
         {/* for middle text */}
         <div className='flex justify-center md:mt-[3rem] items-center' >
             <div className=" bg-[#243c5a] m-[2rem] p-[2rem] opacity-[.88]  text-white md:text-[4rem] text-[1.5rem] rounded-lg">
-            <p className="font-lora">Deerwalk Data Society</p>
-            <p className='font-lato md:pl-[2rem]'>lorem lorem lorem</p>
+            <p className="font-lora md:pl-[8rem]">Deerwalk Data Society</p>
+            <p className='font-lato md:pl-[2rem]'>Translating And Transforming Data</p>
             </div>
            
         </div>

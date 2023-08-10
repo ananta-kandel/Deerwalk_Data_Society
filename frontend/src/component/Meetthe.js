@@ -25,6 +25,22 @@ const Meetthe = () => {
     'description' :'hello i am ',
     'gitlink': "https://github.com",
     'linkedin' : "https://linkedin.com"
+  },
+  {
+    'src' : 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
+    'name' : 'Shard Sharma',
+    'role' : 'Member',
+    'description' :'hello i am ',
+    'gitlink': "https://github.com",
+    'linkedin' : "https://linkedin.com"
+  },
+  {
+    'src' : 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
+    'name' : 'Shard Sharma',
+    'role' : 'Member',
+    'description' :'hello i am ',
+    'gitlink': "https://github.com",
+    'linkedin' : "https://linkedin.com"
   }
 ]
 
