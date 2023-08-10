@@ -1,6 +1,28 @@
-import React from 'react'
+import React ,{ useState, useEffect }from 'react'
 import eventpic from "../images/background.jpg"
 const Hero = () => {
+      const [show , setShow] =useState(false)
+      useEffect(() => {
+         let previousScrollPosition = 0;
+         let currentScrollPosition = 0;
+     
+         window.addEventListener('scroll', function (e) {
+     
+           // Get the new Value
+           currentScrollPosition = window.pageYOffset;
+     
+           //Subtract the two and conclude
+           if (previousScrollPosition - currentScrollPosition < 0) {
+             setShow(false);
+           } else if (previousScrollPosition - currentScrollPosition > 0) {
+             setShow(true);
+           }
+     
+           // Update the previous value
+           previousScrollPosition = currentScrollPosition;
+         });
+       }, []);
+      
   return (
     <>
     <nav className='h-[2rem] bg-[#00A09C] p-[2rem] flex justify-center sticky top-0  z-10 items-center shadow'>
